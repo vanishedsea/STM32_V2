@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "**/MDK-ARM/Objects": true,
+    "**/MDK-ARM/Listings": true,
+    "**/MDK-ARM/VSCode_*.log": true
+  },
+  "files.watcherExclude": {
+    "**/MDK-ARM/Objects/**": true,
+    "**/MDK-ARM/Listings/**": true
+  },
+  "search.exclude": {
+    "**/MDK-ARM/Objects/**": true,
+    "**/MDK-ARM/Listings/**": true
+  },
+  "files.associations": {
+    "*.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled",
+  "cmake.sourceDirectory": "C:/Users/35051/Desktop/STM开发资料+项目文件/STM32F103C8T6 2026 07 23版本/03_CMake_GCC"
+}

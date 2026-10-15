@@ -1,0 +1,28 @@
+
+# Keil build output directories
+**/Objects/
+**/Listings/
+**/Debug/
+**/Release/
+**/build/
+
+# Keil personal settings
+**/*.uvoptx
+**/*.uvguix.*
+
+# Generated compilation files
+**/*.o
+**/*.axf
+**/*.elf
+**/*.map
+**/*.lst
+**/*.crf
+**/*.d
+
+# Claude Code local settings
+**/.claude/settings.local.json
+
+# Temporary files
+**/*.log
+*.tmp
+*.bak

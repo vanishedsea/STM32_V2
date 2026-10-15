@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "name": "01 - BareMetal (Keil)",
+      "path": "01_BareMetal_Keil"
+    },
+    {
+      "name": "02 - FreeRTOS (Keil)",
+      "path": "02_FreeRTOS_Keil"
+    },
+    {
+      "name": "03 - Learning Textbook",
+      "path": "Learning"
+    },
+    {
+      "name": "04 - VSCode Tools",
+      "path": "Tools"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/MDK-ARM/Objects": true,
+      "**/MDK-ARM/Listings": true,
+      "**/MDK-ARM/VSCode_*.log": true
+    },
+    "files.watcherExclude": {
+      "**/MDK-ARM/Objects/**": true,
+      "**/MDK-ARM/Listings/**": true
+    },
+    "search.exclude": {
+      "**/MDK-ARM/Objects/**": true,
+      "**/MDK-ARM/Listings/**": true
+    },
+    "files.associations": {
+      "*.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "EIDE.DisplayLanguage": "zh-cn",
+    "EIDE.ARM.ARMCC5.InstallDirectory": "D:\\keliv5\\ARM\\ARMCC",
+    "EIDE.STLink.ExePath": "C:\\Users\\35051\\AppData\\Local\\stm32cube\\bundles\\programmer\\2.22.0+st.1\\bin\\STM32_Programmer_CLI.exe",
+    "EIDE.Option.UseTaskToBuild": true
+  },
+  "extensions": {
+    "recommendations": [
+      "cl.eide",
+      "ms-vscode.cpptools",
+      "marus25.cortex-debug",
+      "ms-vscode.vscode-serial-monitor"
+    ]
+  }
+}

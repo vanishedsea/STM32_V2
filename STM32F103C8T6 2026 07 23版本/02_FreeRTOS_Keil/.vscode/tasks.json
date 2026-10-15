@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "FreeRTOS: Build Classic",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/../Tools/Invoke-Keil.ps1",
+        "-Action",
+        "Build",
+        "-Project",
+        "${workspaceFolder}/stm32_multisensor_freertos.uvprojx",
+        "-Target",
+        "FreeRTOS"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "FreeRTOS: Build Nokia",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/../Tools/Invoke-Keil.ps1",
+        "-Action", "Build",
+        "-Project", "${workspaceFolder}/stm32_multisensor_freertos.uvprojx",
+        "-Target", "FreeRTOS-Nokia"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "build",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "FreeRTOS: Rebuild Classic",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/../Tools/Invoke-Keil.ps1",
+        "-Action", "Rebuild",
+        "-Project", "${workspaceFolder}/stm32_multisensor_freertos.uvprojx",
+        "-Target", "FreeRTOS"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "build",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "FreeRTOS: Flash Classic (build + download)",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/../Tools/Invoke-Keil.ps1",
+        "-Action", "Flash",
+        "-Project", "${workspaceFolder}/stm32_multisensor_freertos.uvprojx",
+        "-Target", "FreeRTOS"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "FreeRTOS: Flash Nokia (build + download)",
+      "type": "process",
+      "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/../Tools/Invoke-Keil.ps1",
+        "-Action", "Flash",
+        "-Project", "${workspaceFolder}/stm32_multisensor_freertos.uvprojx",
+        "-Target", "FreeRTOS-Nokia"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    }
+  ]
+}

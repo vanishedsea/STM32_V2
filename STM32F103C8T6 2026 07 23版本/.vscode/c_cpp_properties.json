@@ -1,0 +1,71 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "BareMetal (01_BareMetal_Keil)",
+      "compilerPath": "C:/Users/35051/AppData/Local/xpack-arm-gcc/xpack-arm-none-eabi-gcc-15.2.1-1.1/bin/arm-none-eabi-gcc.exe",
+      "intelliSenseMode": "gcc-arm",
+      "cStandard": "c99",
+      "defines": [
+        "STM32F103xB",
+        "STM32F10X_MD",
+        "USE_HAL_DRIVER",
+        "APP_UI_DEFAULT_THEME=0",
+        "APP_UI_PROFILE_ID=0"
+      ],
+      "includePath": [
+        "${workspaceFolder}/01_BareMetal_Keil/Core/Inc",
+        "${workspaceFolder}/01_BareMetal_Keil/App/Inc",
+        "${workspaceFolder}/01_BareMetal_Keil/System/Inc",
+        "${workspaceFolder}/01_BareMetal_Keil/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/01_BareMetal_Keil/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/01_BareMetal_Keil/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/01_BareMetal_Keil/Drivers/CMSIS/Include"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/01_BareMetal_Keil/Core",
+          "${workspaceFolder}/01_BareMetal_Keil/App",
+          "${workspaceFolder}/01_BareMetal_Keil/System",
+          "${workspaceFolder}/01_BareMetal_Keil/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+          "${workspaceFolder}/01_BareMetal_Keil/Drivers/CMSIS/Include"
+        ],
+        "limitSymbolsToIncludedHeaders": false
+      }
+    },
+    {
+      "name": "FreeRTOS (02_FreeRTOS_Keil)",
+      "compilerPath": "C:/Users/35051/AppData/Local/xpack-arm-gcc/xpack-arm-none-eabi-gcc-15.2.1-1.1/bin/arm-none-eabi-gcc.exe",
+      "intelliSenseMode": "gcc-arm",
+      "cStandard": "c99",
+      "defines": [
+        "STM32F103xB",
+        "STM32F10X_MD",
+        "USE_HAL_DRIVER",
+        "APP_UI_DEFAULT_THEME=0",
+        "APP_UI_PROFILE_ID=0"
+      ],
+      "includePath": [
+        "${workspaceFolder}/02_FreeRTOS_Keil/Core/Inc",
+        "${workspaceFolder}/02_FreeRTOS_Keil/App/Inc",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/CMSIS/Include",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "${workspaceFolder}/02_FreeRTOS_Keil/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/02_FreeRTOS_Keil/Core",
+          "${workspaceFolder}/02_FreeRTOS_Keil/App",
+          "${workspaceFolder}/02_FreeRTOS_Keil/Middlewares/Third_Party/FreeRTOS/Source/include",
+          "${workspaceFolder}/02_FreeRTOS_Keil/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3",
+          "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+          "${workspaceFolder}/02_FreeRTOS_Keil/Drivers/CMSIS/Include"
+        ],
+        "limitSymbolsToIncludedHeaders": false
+      }
+    }
+  ]
+}
